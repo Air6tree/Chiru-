@@ -10,5 +10,5 @@ def show(request):
   y= int(request.GET['t2'])
 
   z= x + y 
-
+  # gutig
   return HttpResponse(z);
